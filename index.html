@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yango Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">Yango</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Rides</a>
+        <a href="#">Pricing</a>
+        <a href="#">Profile</a>
+    </nav>
+</header>
+
+<main class="ride-section">
+    <h1>Request a Ride</h1>
+    <div class="ride-form">
+        <input type="text" placeholder="Pickup Location">
+        <input type="text" placeholder="Drop-off Location">
+        <select>
+            <option value="standard">Standard</option>
+            <option value="premium">Premium</option>
+        </select>
+        <button id="request-ride">Request Ride</button>
+    </div>
+
+    <div class="map-placeholder">
+        <p>Map will appear here</p>
+    </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
